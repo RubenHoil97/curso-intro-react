@@ -1,0 +1,75 @@
+.LoadingTodo-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.834);
+    box-shadow: 0 0 20px 0px lightyellow;
+    z-index: 1;
+}
+
+.spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #3d5af1 transparent #3d5af1 transparent;
+  border-radius: 50%;
+  animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+/* .LoadingTodo-text {
+  margin: 24px 0 24px 24px;
+  width: calc(100% - 120px);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.LoadingTodo-completeIcon,
+.LoadingTodo-deleteIcon {
+  border-radius: 50px;
+  height: 48px;
+  width: 48px;
+}
+
+.LoadingTodo-completeIcon {
+  position: absolute;
+  left: 12px;
+}
+
+.LoadingTodo-deleteIcon {
+  position: absolute;
+  top: -24px;
+  right: 0;
+}
+
+.LoadingTodo-container,
+.LoadingTodo-completeIcon,
+.LoadingTodo-deleteIcon {
+  background: linear-gradient(90deg, rgba(250,250,250,1), rgb(200, 199, 199));
+  background-size: 400% 400%;
+  animation: loadingAnimation 3s ease-in-out infinite;
+}
+
+@keyframes loadingAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
